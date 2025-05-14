@@ -43,7 +43,7 @@ class StreamHandler(BaseCallbackHandler):
 st.sidebar.image("https://framerusercontent.com/images/3Ca34Pogzn9I3a7uTsNSlfs9Bdk.png", use_container_width=True)
 st.sidebar.title("Settings")
 
-sutra_api_key = st.sidebar.text_input("Enter your Sutra API Key", type="password")
+sutra_api_key = st.sidebar.text_input("Enter your SUTRA API Key", type="password")
 selected_language = st.sidebar.selectbox("Select language for responses:", languages)
 
 st.sidebar.header("Upload Documents")
@@ -110,7 +110,7 @@ def process_documents(uploaded_files, chunk_size=1000, chunk_overlap=100):
 
 # App title
 st.markdown(
-    '<h1><img src="https://framerusercontent.com/images/9vH8BcjXKRcC5OrSfkohhSyDgX0.png" width="60"/> Sutra Document Chatbot 📚</h1>',
+    '<h1><img src="https://framerusercontent.com/images/9vH8BcjXKRcC5OrSfkohhSyDgX0.png" width="60"/> SUTRA Document Chatbot 📚</h1>',
     unsafe_allow_html=True
 )
 
