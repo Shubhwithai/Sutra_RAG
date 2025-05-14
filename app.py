@@ -110,7 +110,7 @@ def process_documents(uploaded_files, chunk_size=1000, chunk_overlap=100):
 
 # App title
 st.markdown(
-    '<h1><img src="https://framerusercontent.com/images/9vH8BcjXKRcC5OrSfkohhSyDgX0.png" width="60"/> SUTRA Document Chatbot 📚</h1>',
+    '<h1><img src="https://framerusercontent.com/images/9vH8BcjXKRcC5OrSfkohhSyDgX0.png" width="60"/> SUTRA Multilingual Document Chatbot 📚</h1>',
     unsafe_allow_html=True
 )
 
