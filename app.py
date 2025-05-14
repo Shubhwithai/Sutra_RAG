@@ -43,6 +43,8 @@ class StreamHandler(BaseCallbackHandler):
 st.sidebar.image("https://framerusercontent.com/images/3Ca34Pogzn9I3a7uTsNSlfs9Bdk.png", use_container_width=True)
 st.sidebar.title("Settings")
 
+st.sidebar.markdown("🔑 Get your API key from [Two AI Sutra](https://www.two.ai/sutra/api)")
+
 sutra_api_key = st.sidebar.text_input("Enter your SUTRA API Key", type="password")
 selected_language = st.sidebar.selectbox("Select language for responses:", languages)
 
